@@ -34,3 +34,49 @@ h1 {
 .dot:hover {
   box-shadow: 0 0 0 2px #aaa;
 }
+#recentColors {
+  display: inline-block;
+  margin-left: 12px;
+  vertical-align: middle;
+}
+#colorHistory {
+  display: inline-flex;
+  gap: 4px;
+  vertical-align: middle;
+}
+.color-history-dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #aaa;
+  cursor: pointer;
+  display: inline-block;
+}
+.main-area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.sample-area {
+  margin-left: 16px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  min-width: 100px;
+}
+#sampleDot {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: repeat(8, 16px);
+  grid-template-rows: repeat(8, 16px);
+  gap: 1px;
+}
+.sample-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  background: #eee;
+  border: 1px solid #ccc;
+}
