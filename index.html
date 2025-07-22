@@ -11,9 +11,20 @@
   <div class="controls">
     <label for="colorPicker">색상 선택: </label>
     <input type="color" id="colorPicker" value="#000000">
+    <button id="eraserBtn">지우개</button>
     <button id="clearBtn">초기화</button>
+    <div id="recentColors">
+      <span>최근 사용 색상: </span>
+      <div id="colorHistory"></div>
+    </div>
   </div>
-  <div id="dotGrid"></div>
+  <div class="main-area">
+    <div id="dotGrid"></div>
+    <div class="sample-area">
+      <span>추천 도트 그림</span>
+      <div id="sampleDot"></div>
+    </div>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>
