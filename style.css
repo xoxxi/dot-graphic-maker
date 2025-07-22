@@ -1,0 +1,36 @@
+body {
+  background: #f7f7f7;
+  font-family: 'Pretendard', 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h1 {
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+.controls {
+  margin-bottom: 24px;
+}
+#dotGrid {
+  display: inline-grid;
+  grid-template-columns: repeat(16, 24px);
+  grid-template-rows: repeat(16, 24px);
+  gap: 2px;
+  background: #e0e0e0;
+  padding: 12px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+.dot {
+  width: 24px;
+  height: 24px;
+  background: #fff;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.dot:hover {
+  box-shadow: 0 0 0 2px #aaa;
+}
